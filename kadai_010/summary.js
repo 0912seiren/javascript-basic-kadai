@@ -5,7 +5,6 @@ $(function () {
   });
 
   $("#change-text").on("click", function () {
-    $("#target").css("color", "red");
     $("#target").text("Hello!");
   });
 
